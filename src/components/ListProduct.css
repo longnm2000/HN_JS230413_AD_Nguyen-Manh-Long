@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p,
+.limit {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.price {
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.input-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-box input,
+.update-inp {
+    width: 80px;
+}
+
+.total {
+    text-align: center;
+    font-weight: 900;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.card-style:hover {
+    box-shadow: #71dea5 0px 5px 15px;
+}
